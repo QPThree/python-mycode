@@ -1,7 +1,6 @@
-# mycode (Project Title)
+# Python - ALTA3 - mycode
 
-One Paragraph of your project description goes here. Describe what you're trying to do.
-What is the purpose of putting up this repo?
+Code I will be doing for the python course at ALTA3
 
 ## Getting Started
 
@@ -20,4 +19,4 @@ What things are needed to install the software and how to install them. For now,
 
 ## Authors
 
-* **Your Name** - *Initial work* - [YourWebsite](https://example.com/)
+* **Quentin Young** - *Initial work* - [YourWebsite](https://example.com/)
