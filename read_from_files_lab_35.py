@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 ######## EXPLORE READ ##########
 
-file = input("path to file?")
+filePath = input("path to file?")
 ## create file object in "r"ead mode
-configfile = open(f"{file}", "r")
+configfile = open(f"{filePath}", "r")
 
 ## display file to the screen - .read()
 print(configfile.read())
@@ -13,7 +13,7 @@ configfile.close()
 
 ######## EXPLORE READLINES ##########
 ## re-create file object to explore new method
-configfile = open(f"{file}", "r")
+configfile = open(f"{filePath}", "r")
 
 ## make a list of file lines - .readlines()
 configlist = configfile.readlines()
@@ -23,7 +23,6 @@ newlist = []
 
 ## Iterate through configlist
 for x in configlist:
-    pass
     #print(x.strip().splitlines())
     newlist.append(x.strip().splitlines())
 
