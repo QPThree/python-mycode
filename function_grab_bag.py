@@ -36,7 +36,12 @@ def findEvenNumbersInList(list1:list) -> list:
     return(evenList)
 
 
-print(findMaxOfThreeInts(-5,-4,3))
-print(sumAllNumbersInList([1,2,3,4,5]))
-print(multiplyAllNumbersInList([-2,-3, 5, -6]))
-print(findEvenNumbersInList([1,2,3,4,5,6,7,8,9,10]))
+def main():
+
+    print(findMaxOfThreeInts(-5,-4,3))
+    print(sumAllNumbersInList([1,2,3,4,5]))
+    print(multiplyAllNumbersInList([-2,-3, 5, -6]))
+    print(findEvenNumbersInList([1,2,3,4,5,6,7,8,9,10]))
+
+if __name__ == "__main__":
+    main()
