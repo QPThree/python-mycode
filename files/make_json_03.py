@@ -33,6 +33,8 @@ def main():
 
     ## write code to
     ## display the last server in row3
+    print(datacenterdecoded["row3"][2])
 
 if __name__ == "__main__":
     main()
+
