@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+   <body>
+   
+      {% for group in groups %}
+      <p>{{ group.ip }} {{ group.fqdn }} # {{ group.hostname }}</p>
+      {% endfor %}
+      
+   </body>
+</html>
